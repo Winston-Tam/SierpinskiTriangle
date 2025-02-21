@@ -1,12 +1,12 @@
 public void setup()
 {
 	background(255);
-	size(800,800);
+	size(600,600);
 }
 public void draw()
 {
 	noLoop();
-	sierpinski(150,750,700);
+	sierpinski(150,400,500);
 }
 public void mouseDragged()//optional
 {
